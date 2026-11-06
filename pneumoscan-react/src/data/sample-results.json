@@ -1,0 +1,110 @@
+[
+  {
+    "id": "SCN-001",
+    "date": "2026-06-20T08:14:00",
+    "filename": "patient_001_frontal.jpg",
+    "prediction": "Pneumonia",
+    "confidence": 94.7,
+    "riskLevel": "Critical",
+    "recommendation": "Immediate medical consultation recommended."
+  },
+  {
+    "id": "SCN-002",
+    "date": "2026-06-20T07:45:00",
+    "filename": "patient_002_chest.png",
+    "prediction": "Normal",
+    "confidence": 97.2,
+    "riskLevel": "Low",
+    "recommendation": "No signs of pneumonia detected. Routine checkup advised."
+  },
+  {
+    "id": "SCN-003",
+    "date": "2026-06-19T16:30:00",
+    "filename": "patient_003_xray.jpg",
+    "prediction": "Pneumonia",
+    "confidence": 88.3,
+    "riskLevel": "High",
+    "recommendation": "Signs of possible pneumonia. Consult a pulmonologist."
+  },
+  {
+    "id": "SCN-004",
+    "date": "2026-06-19T14:12:00",
+    "filename": "patient_004_pa_view.jpg",
+    "prediction": "Normal",
+    "confidence": 91.5,
+    "riskLevel": "Low",
+    "recommendation": "Lungs appear clear. Continue regular health monitoring."
+  },
+  {
+    "id": "SCN-005",
+    "date": "2026-06-19T11:08:00",
+    "filename": "patient_005_frontal.png",
+    "prediction": "Pneumonia",
+    "confidence": 92.1,
+    "riskLevel": "Critical",
+    "recommendation": "High confidence pneumonia detection. Seek immediate care."
+  },
+  {
+    "id": "SCN-006",
+    "date": "2026-06-18T17:55:00",
+    "filename": "patient_006_chest.jpg",
+    "prediction": "Normal",
+    "confidence": 85.6,
+    "riskLevel": "Low",
+    "recommendation": "No significant abnormalities detected."
+  },
+  {
+    "id": "SCN-007",
+    "date": "2026-06-18T10:20:00",
+    "filename": "patient_007_lateral.jpg",
+    "prediction": "Pneumonia",
+    "confidence": 78.4,
+    "riskLevel": "High",
+    "recommendation": "Possible pneumonia indicators. Further imaging recommended."
+  },
+  {
+    "id": "SCN-008",
+    "date": "2026-06-17T15:40:00",
+    "filename": "patient_008_ap_view.png",
+    "prediction": "Normal",
+    "confidence": 96.8,
+    "riskLevel": "Low",
+    "recommendation": "Clear lung fields. No intervention needed."
+  },
+  {
+    "id": "SCN-009",
+    "date": "2026-06-17T09:30:00",
+    "filename": "patient_009_chest.jpg",
+    "prediction": "Pneumonia",
+    "confidence": 91.0,
+    "riskLevel": "Critical",
+    "recommendation": "Strong pneumonia indicators. Urgent medical evaluation required."
+  },
+  {
+    "id": "SCN-010",
+    "date": "2026-06-16T13:25:00",
+    "filename": "patient_010_frontal.jpg",
+    "prediction": "Normal",
+    "confidence": 93.4,
+    "riskLevel": "Low",
+    "recommendation": "Normal chest X-ray findings. Maintain regular checkups."
+  },
+  {
+    "id": "SCN-011",
+    "date": "2026-06-16T08:50:00",
+    "filename": "patient_011_pa.png",
+    "prediction": "Pneumonia",
+    "confidence": 67.2,
+    "riskLevel": "Medium",
+    "recommendation": "Inconclusive results. Additional imaging studies suggested."
+  },
+  {
+    "id": "SCN-012",
+    "date": "2026-06-15T16:15:00",
+    "filename": "patient_012_chest.jpg",
+    "prediction": "Normal",
+    "confidence": 89.7,
+    "riskLevel": "Low",
+    "recommendation": "No pathological findings. Continue preventive care."
+  }
+]

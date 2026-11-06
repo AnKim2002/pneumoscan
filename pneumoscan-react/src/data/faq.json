@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "keywords": ["pneumonia", "what is pneumonia", "define pneumonia"],
+    "question": "What is pneumonia?",
+    "answer": "Pneumonia is an infection that inflames the air sacs (alveoli) in one or both lungs. The air sacs may fill with fluid or pus, causing symptoms such as cough, fever, chills, and difficulty breathing. It can range from mild to life-threatening and is most serious for infants, older adults, and people with weakened immune systems."
+  },
+  {
+    "id": 2,
+    "keywords": ["symptoms", "signs", "pneumonia symptoms"],
+    "question": "What are the symptoms of pneumonia?",
+    "answer": "Common symptoms include: persistent cough (may produce phlegm), fever and chills, shortness of breath, chest pain when breathing or coughing, fatigue and weakness, nausea or vomiting, and confusion (especially in older adults). If you experience these symptoms, please consult a healthcare professional immediately."
+  },
+  {
+    "id": 3,
+    "keywords": ["causes", "how do you get", "what causes"],
+    "question": "What causes pneumonia?",
+    "answer": "Pneumonia can be caused by bacteria (most commonly Streptococcus pneumoniae), viruses (including influenza and COVID-19), fungi, or other organisms. It can be acquired in community settings, hospitals, or through aspiration. Risk factors include age (very young or elderly), smoking, chronic diseases, and weakened immune system."
+  },
+  {
+    "id": 4,
+    "keywords": ["ai", "detect", "how does ai", "artificial intelligence", "detection"],
+    "question": "How does AI detect pneumonia?",
+    "answer": "Our AI system uses a Convolutional Neural Network (CNN) that has been trained on thousands of labeled chest X-ray images. The model learned to identify patterns associated with pneumonia such as consolidation, infiltrates, and opacities in the lung fields. When you upload an X-ray, the CNN analyzes pixel patterns and outputs a prediction with a confidence score."
+  },
+  {
+    "id": 5,
+    "keywords": ["cnn", "convolutional", "neural network", "deep learning"],
+    "question": "What is a CNN?",
+    "answer": "A Convolutional Neural Network (CNN) is a type of deep learning model specifically designed for analyzing visual data. It uses convolutional layers to automatically learn spatial features from images — like edges, textures, and shapes. In medical imaging, CNNs can detect subtle patterns that may be difficult for the human eye to identify, making them powerful tools for diagnostic assistance."
+  },
+  {
+    "id": 6,
+    "keywords": ["accuracy", "accurate", "how accurate", "reliable"],
+    "question": "How accurate is PneumoScan AI?",
+    "answer": "Our CNN model achieves approximately 96.2% accuracy on the test dataset, with 95.8% precision and 97.1% recall. This means it correctly identifies most pneumonia cases while maintaining a low false positive rate. However, AI predictions should always be confirmed by a qualified radiologist or physician — our tool is designed to assist, not replace, medical professionals."
+  },
+  {
+    "id": 7,
+    "keywords": ["trust", "replace doctor", "should i trust", "medical advice"],
+    "question": "Should I trust AI diagnosis over a doctor?",
+    "answer": "No. PneumoScan AI is designed as a screening and assistance tool, not a replacement for professional medical diagnosis. Our AI can help flag potential cases for further review, but a final diagnosis should always be made by a qualified healthcare professional who can consider the full clinical context, patient history, and additional tests."
+  },
+  {
+    "id": 8,
+    "keywords": ["x-ray", "xray", "chest x-ray", "radiograph"],
+    "question": "What kind of X-ray should I upload?",
+    "answer": "For best results, upload a standard posteroanterior (PA) chest X-ray in digital format (JPEG, PNG, or DICOM). The image should be: clearly visible with good contrast, frontal view of the chest, properly oriented, and of reasonable quality. Our model was trained on standard clinical chest X-ray images."
+  },
+  {
+    "id": 9,
+    "keywords": ["treatment", "cure", "treat pneumonia", "medicine"],
+    "question": "How is pneumonia treated?",
+    "answer": "Treatment depends on the type and severity: Bacterial pneumonia is treated with antibiotics. Viral pneumonia may require antiviral medications and supportive care. Mild cases can often be treated at home with rest, fluids, and medications. Severe cases may require hospitalization, IV antibiotics, and oxygen therapy. Always consult your doctor for proper treatment."
+  },
+  {
+    "id": 10,
+    "keywords": ["prevent", "prevention", "avoid", "protect"],
+    "question": "How can pneumonia be prevented?",
+    "answer": "Prevention strategies include: getting vaccinated (pneumococcal vaccine, flu vaccine), practicing good hygiene (handwashing), not smoking, maintaining a healthy lifestyle, managing chronic conditions, and avoiding close contact with sick individuals. For high-risk groups, regular checkups and early screening are especially important."
+  },
+  {
+    "id": 11,
+    "keywords": ["dataset", "training data", "data", "images used"],
+    "question": "What dataset was used to train the model?",
+    "answer": "Our model was trained on the Chest X-Ray Images dataset from Kaggle, originally curated by Guangzhou Women and Children's Medical Center. It contains 5,863 validated chest X-ray images organized into two categories: Normal (1,583 images) and Pneumonia (4,273 images). All images were quality-checked by expert physicians before being used for training."
+  },
+  {
+    "id": 12,
+    "keywords": ["privacy", "data privacy", "secure", "security", "safe"],
+    "question": "Is my medical data secure?",
+    "answer": "Yes! PneumoScan AI processes your X-ray images entirely in your browser — no images are uploaded to any server or stored externally. Your medical data never leaves your device, ensuring complete privacy and HIPAA-like compliance. We do not collect, store, or share any patient data."
+  },
+  {
+    "id": 13,
+    "keywords": ["confidence", "confidence score", "percentage", "score"],
+    "question": "What does the confidence score mean?",
+    "answer": "The confidence score represents how certain the AI model is about its prediction, expressed as a percentage (0-100%). A higher score indicates greater certainty. For example, a 95% confidence for 'Pneumonia' means the model is 95% sure that pneumonia indicators are present. Scores above 85% are generally considered high-confidence predictions."
+  },
+  {
+    "id": 14,
+    "keywords": ["risk level", "risk", "low risk", "high risk"],
+    "question": "How are risk levels determined?",
+    "answer": "Risk levels are based on the combination of prediction and confidence score: LOW (Normal with >90% confidence), MEDIUM (Normal with 70-90% confidence or Pneumonia with <70% confidence), HIGH (Pneumonia with 70-90% confidence), and CRITICAL (Pneumonia with >90% confidence). Higher risk levels recommend more urgent medical consultation."
+  },
+  {
+    "id": 15,
+    "keywords": ["pdf", "report", "download", "export"],
+    "question": "Can I download a report of my results?",
+    "answer": "Yes! After each scan analysis, you can download a detailed PDF report containing: the uploaded X-ray image, AI prediction result, confidence score, risk level assessment, recommendation message, and timestamp. This report can be shared with your healthcare provider for further evaluation."
+  },
+  {
+    "id": 16,
+    "keywords": ["types", "types of pneumonia", "bacterial", "viral"],
+    "question": "What are the types of pneumonia?",
+    "answer": "The main types are: 1) Bacterial Pneumonia (most common, caused by bacteria like S. pneumoniae), 2) Viral Pneumonia (caused by flu, COVID-19, RSV), 3) Mycoplasma Pneumonia (walking pneumonia, usually milder), 4) Fungal Pneumonia (from inhaling fungal spores, more common in immunocompromised patients), and 5) Aspiration Pneumonia (from inhaling food/liquid into lungs)."
+  },
+  {
+    "id": 17,
+    "keywords": ["children", "kids", "pediatric", "child"],
+    "question": "Is pneumonia dangerous for children?",
+    "answer": "Pneumonia is the leading infectious cause of death in children worldwide, killing approximately 800,000 children under 5 every year. Children with malnutrition, weakened immune systems, or limited access to healthcare are at greatest risk. Early detection and treatment are crucial — which is why tools like PneumoScan AI can help with rapid screening."
+  },
+  {
+    "id": 18,
+    "keywords": ["how long", "duration", "recovery", "how long does"],
+    "question": "How long does it take to recover from pneumonia?",
+    "answer": "Recovery time varies: Mild cases may improve within 1-2 weeks with proper treatment. Moderate cases typically take 3-4 weeks. Severe cases can take 6-8 weeks or longer, especially in elderly patients. Fatigue and coughing may persist even after the infection clears. Following your doctor's treatment plan and getting adequate rest is essential for full recovery."
+  },
+  {
+    "id": 19,
+    "keywords": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon"],
+    "question": "Hello!",
+    "answer": "Hello! 👋 Welcome to PneumoScan AI Assistant. I can help you with questions about pneumonia, our AI detection system, how to use the tool, and general health information. What would you like to know?"
+  },
+  {
+    "id": 20,
+    "keywords": ["thank", "thanks", "thank you", "bye", "goodbye"],
+    "question": "Thank you!",
+    "answer": "You're welcome! 😊 Remember, PneumoScan AI is a screening tool — always consult a healthcare professional for medical advice. Stay healthy and take care! Feel free to ask if you have more questions."
+  }
+]
